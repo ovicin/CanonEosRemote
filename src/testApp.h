@@ -16,5 +16,6 @@ class testApp : public ofBaseApp{
         CanonSDKWrapper wrapper;
         void onFileAdded(string &fileName);
         ofImage lastImage;
+    
 		
 };

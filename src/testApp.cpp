@@ -7,10 +7,25 @@ void testApp::setup(){
     ofSetFullscreen(TRUE);
 }
 
+
 void testApp::onFileAdded(string &fileName){
+    
     lastImage.loadImage(fileName);
-    cout << ofGetWidth();
-    cout << (lastImage.height * ofGetWidth())/lastImage.width;
+    /* rename now the file */
+    ofFile file(fileName);
+    string dateFileName;
+    dateFileName.append(ofToString(ofGetYear()));
+    dateFileName.append(ofToString(ofGetMonth()));
+    dateFileName.append(ofToString(ofGetDay()));
+    dateFileName.append(ofToString(ofGetHours()));
+    dateFileName.append(ofToString(ofGetMinutes()));
+    dateFileName.append(ofToString(ofGetSeconds()));
+    dateFileName.append(".jpg");
+    cout << dateFileName;
+    file.renameTo(dateFileName);
+    file.close();
+
+    
 }
 
 //--------------------------------------------------------------
