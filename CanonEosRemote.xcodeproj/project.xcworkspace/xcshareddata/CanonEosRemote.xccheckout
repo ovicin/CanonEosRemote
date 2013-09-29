@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2694C2EF-C09D-4C40-924F-1FA9DFF3DF86</string>
+	<key>IDESourceControlProjectName</key>
+	<string>CanonEosRemote</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0948B023-EBE3-4A86-B901-32384705C2A6</key>
+		<string>https://github.com/wouterverweirder/ofxCanonEOS.git</string>
+		<key>82E5410D-DB8E-4778-B052-93FF2F8784B0</key>
+		<string>https://github.com/ovicin/CanonEosRemote.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>CanonEosRemote.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0948B023-EBE3-4A86-B901-32384705C2A6</key>
+		<string>../../../../../addons/ofxCanonEOS</string>
+		<key>82E5410D-DB8E-4778-B052-93FF2F8784B0</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ovicin/CanonEosRemote.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>82E5410D-DB8E-4778-B052-93FF2F8784B0</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>82E5410D-DB8E-4778-B052-93FF2F8784B0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CanonEosRemote</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0948B023-EBE3-4A86-B901-32384705C2A6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ofxCanonEOS</string>
+		</dict>
+	</array>
+</dict>
+</plist>

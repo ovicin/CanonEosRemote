@@ -4,7 +4,9 @@
 void testApp::setup(){
     ofAddListener(wrapper.onFileAdded, this, &testApp::onFileAdded);
     wrapper.start();
-    ofSetFullscreen(TRUE);
+    fullscreen = TRUE;
+    ofSetFullscreen(fullscreen);
+    
 }
 
 
@@ -30,6 +32,7 @@ void testApp::onFileAdded(string &fileName){
 
 //--------------------------------------------------------------
 void testApp::update(){
+
 }
 
 //--------------------------------------------------------------
@@ -51,7 +54,8 @@ void testApp::keyReleased(int key){
         wrapper.takePicture();
     }
     else if ('f' == key){
-        ofSetFullscreen(TRUE);
+        fullscreen = !fullscreen;
+        ofSetFullscreen(fullscreen);
     }
     else if ('m' == key){
         ofSetFullscreen(FALSE);
@@ -63,4 +67,12 @@ void testApp::keyReleased(int key){
         wrapper.takePicture();
 
     }
+}
+
+void testApp::mousePressed(int x, int y, int button){
+    if (2 == button ){
+        fullscreen = !fullscreen;
+        ofSetFullscreen(fullscreen);
+    }
+
 }
